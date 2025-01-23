@@ -7,11 +7,10 @@
 
 
   
-  const userOrder = prompt (`please enter your order separated by commas`);
+  const userOrder = prompt (`please enter your order separated by commas`:);
   const userOrderString = userOrder.split(`,`);
-  // console.log(userOrderString);
-  
-  //objects
+ 
+
   const iceCream = {
     name: ""
   };
@@ -22,8 +21,9 @@ let ArrayFlavorIceCream = [];
 //checks for a value like vanilla chocolate etc and only adds it once []
 //this adds it manually, other options are splice split
 
-ArrayFlavorIceCream = userOrder ();
+// ArrayFlavorIceCream = userOrder ();
 
+ // console.log(userOrderString);
  // for (let i = 0; i <ArrayFlavorIceCream.length ; i++)
   //  if (ArrayFlavorIceCream[0] === emptyArray[0]){
   //    emptyArray = ArrayFlavorIceCream[0]
@@ -37,9 +37,9 @@ ArrayFlavorIceCream = userOrder ();
 // split or splice array 
 //find finds it in an array
 
-      if ()
+    //   if ()
   
-    }
+    // }
     //this only takes each flavor one time andskips the other
 
   // console.log(iceCream.name);
