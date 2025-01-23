@@ -1,56 +1,88 @@
-// prompt user to list yogurt flavors
-// take user input and create array (split function)
-// observe how much of each flavor they have ordered
-// create loop 
-// create for in loop
-// use if statemnt to count each occurance of flavor
+
+const userPrompt = () =>{
+  let userValue = prompt('Enter your ice cream order separated by commas : ');
+
+  let userOrderString = userValue.split(',');
+   return userOrderString;
+}
+let userData = userPrompt();
+const iceCream = {}
+for(let index in userData){
+    iceCream[index] = userData[index];
+}
+  console.log(iceCream);
+
+  function(array:any); any;
+  let array = InputDeviceInfo.split(",");
+  console.log(array);
 
 
-  
-  const userOrder = prompt (`please enter your order separated by commas`:);
-  const userOrderString = userOrder.split(`,`);
+
+
+// A visitor receives a prompt upon opening the website to enter a list of comma-separated froyo 
+// flavors. 
+
+// They type vanilla,vanilla,vanilla,strawberry,coffee,coffee. 
+
+// When they view the browser console, they observe an object listing how many of 
+// each flavor they have ordered. 
+
+// In this case, they will be able to observe that they have ordered 
+// three vanilla, two coffee, and one strawberry froyo.
+// ==================================================================================
+// //   (enter your order separated by commas`:);
+// //   const userOrderString = userOrder.split(`,`);
  
 
-  const iceCream = {
-    name: ""
-  };
-  iceCream.name = userOrderString;
-let ArrayFlavorIceCream = [];
-//let emptyArray = [];
+// //   const iceCream = {
+// //     name: ""
+// //   };
+// //   iceCream.name = userOrderString;
+// // let ArrayFlavorIceCream = [];
 
-//checks for a value like vanilla chocolate etc and only adds it once []
-//this adds it manually, other options are splice split
+// // console.log(iceCream.name);
 
-// ArrayFlavorIceCream = userOrder ();
+// // //let emptyArray = [];
 
- // console.log(userOrderString);
- // for (let i = 0; i <ArrayFlavorIceCream.length ; i++)
-  //  if (ArrayFlavorIceCream[0] === emptyArray[0]){
-  //    emptyArray = ArrayFlavorIceCream[0]
+// // //checks for a value like vanilla chocolate etc and only adds it once []
+// // //this adds it manually, other options are splice split
+
+// // // ArrayFlavorIceCream = userOrder ();
+
+// //  // console.log(userOrderString);
+// //  // for (let i = 0; i <ArrayFlavorIceCream.length ; i++)
+// //   //  if (ArrayFlavorIceCream[0] === emptyArray[0]){
+// //   //    emptyArray = ArrayFlavorIceCream[0]
       
-//ask in the empty array is any vanilla
-//if not then add vanilla
-//if yes skip hile stop
+// // //ask in the empty array is any vanilla
+// // //if not then add vanilla
+// // //if yes skip hile stop
 
-//how to ask code to check each value 
+// // //how to ask code to check each value 
 
-// split or splice array 
-//find finds it in an array
+// // // split or splice array 
+// // //find finds it in an array
 
-    //   if ()
+// //     //   if ()
   
-    // }
-    //this only takes each flavor one time andskips the other
+// //     // }
+// //     //this only takes each flavor one time andskips the other
 
-  // console.log(iceCream.name);
+// //   // console.log(iceCream.name);
   
+// // // prompt user to list yogurt flavors
+// // // take user input and create array (split function)
+// // // observe how much of each flavor they have ordered
+// // // create loop 
+// // // create for in loop
+// // // use if statemnt to count each occurance of flavor
+// //repository is froyo NOT block15Workshop
+
+//   //for (let i = 0; i < userOrderString.length; i++) {}
 
 
-  //for (let i = 0; i < userOrderString.length; i++) {}
 
 
-
-
-  //let userValue =  []; userValue = prompt;
+//   //let userValue =  []; userValue = prompt;
 
   //console.log(userValue);
